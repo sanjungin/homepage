@@ -935,6 +935,9 @@ h1, h2, h3, p, figure, dl {
 
 .gallery-item.wide {
   grid-column: span 8;
+  grid-row: span 2;
+  aspect-ratio: auto;
+  min-height: 100%;
 }
 
 .gallery-item.half {
