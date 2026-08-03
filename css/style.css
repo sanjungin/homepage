@@ -927,14 +927,18 @@ h1, h2, h3, p, figure, dl {
 }
 
 .gallery-item.tall {
-  grid-column: span 5;
+  grid-column: span 4;
   grid-row: span 2;
   aspect-ratio: auto;
   min-height: 100%;
 }
 
 .gallery-item.wide {
-  grid-column: span 7;
+  grid-column: span 8;
+}
+
+.gallery-item.half {
+  grid-column: span 6;
 }
 
 .gallery-item img {
@@ -1166,7 +1170,8 @@ h1, h2, h3, p, figure, dl {
   .rooms-card.wide,
   .gallery-item,
   .gallery-item.tall,
-  .gallery-item.wide {
+  .gallery-item.wide,
+  .gallery-item.half {
     grid-column: span 12;
     grid-row: auto;
     aspect-ratio: 4 / 3;
